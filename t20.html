@@ -14,7 +14,7 @@
         </div>
     </header>
     <main>
-        <div class='tableauPlaceholder' id='viz1720009786599'>
+        <div class='tableauPlaceholder' id='viz1720009786599' style='position: relative; width: 100%; height: 600px;'>
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/t2/t20_world_cup/Dashboard1/1_rss.png' style='border: none' />
@@ -41,23 +41,19 @@
             var divElement = document.getElementById('viz1720009786599');
             var vizElement = divElement.getElementsByTagName('object')[0];
             if (divElement.offsetWidth > 800) {
-                vizElement.style.width='1200px';
-                vizElement.style.height='827px';
+                vizElement.style.width='1400px';
+                vizElement.style.height='600px';
             } else if (divElement.offsetWidth > 500) {
-                vizElement.style.width='1200px';
-                vizElement.style.height='827px';
+                vizElement.style.width='100%';
+                vizElement.style.height='600px';
             } else {
                 vizElement.style.width='100%';
-                vizElement.style.height='1277px';
+                vizElement.style.height='600px';
             }
             var scriptElement = document.createElement('script');
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
         </script>
     </main>
-    <footer>
-        <p>Contact: info@sportsdashboard.com</p>
-    </footer>
-</body> 
+</body>
 </html>
-
